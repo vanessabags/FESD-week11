@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 11 - Tic Tac Toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <br>
+        <div class="row">
+            <h1>Tic Tac Toe</h1>
+        </div>
+        <br>
+        <div class="row">
+            <h4 id="player-turn">Player 1 - X Turn</h4>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4"> </div>
+            <div class="col-lg-4"></div>
+                <table>
+                    <tr>
+                        <td>
+                            <button class="btn btn-lg btn-outline-dark" id="sq1A"></button>
+                        </td>
+                        <td>
+                            <button class="btn btn-lg btn-outline-dark" id="sq1B"></button>
+                        </td>
+                        <td>
+                            <button class="btn btn-lg btn-outline-dark" id="sq1C"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="sq2A" class="btn btn-lg btn-outline-dark"></button>
+                        </td>
+                        <td>
+                            <button id="sq2B" class="btn btn-lg btn-outline-dark"></button>
+                        </td>
+                        <td>
+                            <button id="sq2C" class="btn btn-lg btn-outline-dark"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="sq3A" class="btn btn-lg btn-outline-dark"></button>
+                        </td>
+                        <td>
+                            <button id="sq3B" class="btn btn-lg btn-outline-dark"></button>
+                        </td>
+                        <td>
+                            <button id="sq3C" class="btn btn-lg btn-outline-dark"></button>
+                        </td>
+                    </tr>
+                </table>
+            <div class="col-lg-4"> </div>
+        </div>
+        <br>
+        <div class="row">
+            <input type="button" value="Reset" class="reset btn btn-lg btn-outline-danger btn-block" onClick="reset()">
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>    
+    <script src="index.js"></script>
+</body>
+</html>
